@@ -1,2 +1,2 @@
-# shleld-ratelimter
-基于Redis的分布式限流组件，注解支持
+# shield-ratelimiter
+> 基于Redis的分布式限流工具包

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../rmqtool-protocol-lib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../rmqtool-protocol-lib/aliyun-acm-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../rmqtool-protocol-lib/rctmq-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../rmqtool-protocol-lib/rctmq-spring-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shleld-ratelimter-demo" charset="UTF-8" />
+    <file url="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore" charset="UTF-8" />
+    <file url="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade" charset="UTF-8" />
+    <file url="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service" charset="UTF-8" />
+  </component>
+</project>
