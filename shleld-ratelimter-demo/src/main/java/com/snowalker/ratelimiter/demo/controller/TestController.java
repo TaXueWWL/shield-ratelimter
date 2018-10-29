@@ -21,9 +21,11 @@ public class TestController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(TestController.class);
 
+    private static final String MESSAGE = "{\"code\":\"400\",\"msg\":\"FAIL\",\"desc\":\"触发限流\"}";
+
     @ResponseBody
     @RequestMapping("ratelimiter")
-    @RateLimiter(key = "ratedemo:1.0.0", limit = 5, expire = 100)
+    @RateLimiter(key = "ratedemo:1.0.0", limit = 5, expire = 100, message = MESSAGE)
     public String sendPayment(HttpServletRequest request) throws Exception {
 
         return "正常请求";
