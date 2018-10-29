@@ -30,4 +30,10 @@ public @interface RateLimiter {
      * @return
      */
     long expire() default 1;
+
+    /**
+     * 限流提示语
+     * @return
+     */
+    String message() default "false";
 }

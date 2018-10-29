@@ -2,6 +2,7 @@ package com.snowalker.shield.ratelimiter.core.handler;
 
 import com.google.common.base.Preconditions;
 import com.snowalker.shield.ratelimiter.core.annotation.RateLimiter;
+import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Around;
@@ -72,6 +73,11 @@ public class RateLimterHandler {
         if (LOGGER.isDebugEnabled()) {
             LOGGER.debug("RateLimterHandler[分布式限流处理器]参数值为-limitTimes={},limitTimeout={}", limitTimes, expireTime);
         }
+        // 限流提示语
+        String message = rateLimiter.message();
+        if (StringUtils.isBlank(message)) {
+            message = "false";
+        }
         /**
          * 执行Lua脚本
          */
@@ -85,7 +91,7 @@ public class RateLimterHandler {
         if (result == 0) {
             String msg = "由于超过单位时间=" + expireTime + "-允许的请求次数=" + limitTimes + "[触发限流]";
             LOGGER.debug(msg);
-            return "false";
+            return message;
         }
         if (LOGGER.isDebugEnabled()) {
             LOGGER.debug("RateLimterHandler[分布式限流处理器]限流执行结果-result={},请求[正常]响应", result);
