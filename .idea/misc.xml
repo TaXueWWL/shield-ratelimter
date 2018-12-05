@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$USER_HOME$/Documents/Tencent Files/1210812591/FileRecv/Desktop/permission" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../rmqtool-protocol-lib/pom.xml" />
         <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/pom.xml" />
+        <option value="$USER_HOME$/Downloads/mfbizcore-master-396c4c4b8fa04332ac9c212a1c4220c8b0c3aeaa/pom.xml" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/mfbizcore/pom.xml" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/mprodbasecore/pom.xml" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/mopmweb/pom.xml" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/customerapiservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../shield-transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/../sheild-conf-single/pom.xml" />
       </list>
     </option>
   </component>

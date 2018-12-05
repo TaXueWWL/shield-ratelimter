@@ -2,7 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../rmqtool-protocol-lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../sheild-conf-single" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="D:/snowalker-workspace/0mkt-workspace/customerapiservice" vcs="Git" />
     <mapping directory="D:/snowalker-workspace/0mkt-workspace/maccbasecore" vcs="Git" />
+    <mapping directory="D:/snowalker-workspace/0mkt-workspace/mfbizcore" vcs="Git" />
+    <mapping directory="D:/snowalker-workspace/0mkt-workspace/mopmweb" vcs="Git" />
+    <mapping directory="D:/snowalker-workspace/0mkt-workspace/mprodbasecore" vcs="Git" />
   </component>
 </project>

@@ -31,7 +31,7 @@
         <!--spring缓存支持-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-redis</artifactId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
             <version>${spring.boot.version}</version>
         </dependency>
 

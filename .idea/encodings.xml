@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/../rmqtool-protocol-lib" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../rmqtool-protocol-lib/aliyun-acm-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../rmqtool-protocol-lib/rctmq-spring" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../rmqtool-protocol-lib/rctmq-spring-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sheild-conf-single/sheild-conf-client-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sheild-conf-single/shield-config-manage-ui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sheild-conf-single/shield-demo-project-single" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shleld-ratelimter-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shield-transaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shield-transaction/shield-message-transaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shield-transaction/shield-notification-transaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shield-transaction/shield-tcc-transaction" charset="UTF-8" />
+    <file url="file://D:/snowalker-workspace/0mkt-workspace/customerapiservice" charset="UTF-8" />
     <file url="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore" charset="UTF-8" />
     <file url="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade" charset="UTF-8" />
     <file url="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service" charset="UTF-8" />
+    <file url="file://D:/snowalker-workspace/0mkt-workspace/mfbizcore" charset="UTF-8" />
+    <file url="file://D:/snowalker-workspace/0mkt-workspace/mfbizcore/mfbizcore-facade" charset="UTF-8" />
+    <file url="file://D:/snowalker-workspace/0mkt-workspace/mfbizcore/mfbizcore-service" charset="UTF-8" />
+    <file url="file://D:/snowalker-workspace/0mkt-workspace/mopmweb" charset="UTF-8" />
+    <file url="file://D:/snowalker-workspace/0mkt-workspace/mopmweb/mopmweb-facade" charset="UTF-8" />
+    <file url="file://D:/snowalker-workspace/0mkt-workspace/mopmweb/mopmweb-service" charset="UTF-8" />
+    <file url="file://D:/snowalker-workspace/0mkt-workspace/mprodbasecore" charset="UTF-8" />
+    <file url="file://D:/snowalker-workspace/0mkt-workspace/mprodbasecore/mprodbasecore-facade" charset="UTF-8" />
+    <file url="file://D:/snowalker-workspace/0mkt-workspace/mprodbasecore/mprodbasecore-service" charset="UTF-8" />
   </component>
 </project>
